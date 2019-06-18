@@ -50,5 +50,25 @@
 	 		"\\$log->error(\"$1\");"
 	 	],
 	 	"description": "Slim Error Log"
-	}
+	},
+	"Slim Setting Title": {
+		"scope": "html",
+		"prefix": "slimsettingtitle",
+		"body": [
+		  "[% WRAPPER setting title=\"${1:titlestring}\" desc=\"\" %]",
+		  "<div class=\"prefDesc\">[% \"${2:descriptionstring}\" | string %]</div>",
+		  "[% END %]"
+		],
+		"description": "Slim Setting Title"
+	  },
+	  "Slim Setting Text Input": {
+		"scope": "html",
+		"prefix": "slimsettinginputtext",
+		"body": [
+		  "[% WRAPPER setting title=\"${1:titlestring}\" desc=\"${2:hintstring}\" %]",
+		  "<input type=\"text\" class=\"stdedit\" name=\"pref_${3:preference}\" id=\"pref_${3:preference}\" value=\"[% prefs.pref_${3:preference} %]\" size=\"40\">",
+		  "[% END %]"
+		],
+		"description": "Slim Setting Text Input"
+	  }
 }

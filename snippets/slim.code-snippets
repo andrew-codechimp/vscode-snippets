@@ -24,7 +24,6 @@
 	 	],
 	 	"description": "Slim Debug Log"
 	},
-
 	"Slim Log Info": {
 		"scope": "perl",
 		"prefix": "slimloginfo",
@@ -33,7 +32,6 @@
 	 	],
 	 	"description": "Slim Info Log"
 	},
-
 	"Slim Log Warn": {
 		"scope": "perl",
 		"prefix": "slimlogwarn",
@@ -42,7 +40,6 @@
 	 	],
 	 	"description": "Slim Warn Log"
 	},
-
 	"Slim Log Error": {
 		"scope": "perl",
 		"prefix": "slimlogerror",

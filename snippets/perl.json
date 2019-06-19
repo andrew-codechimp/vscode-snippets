@@ -9,18 +9,18 @@
 		"body": "for my \\$$1 (@\\$$2) {\n\t$0\n}\n",
 		"description": "A for statement"
 	},
-	"Class Method Parameters": {
-		"prefix": "paramclass",
+	"Class Method Arguments": {
+		"prefix": "argsclass",
 		"body": [
 			"my (\\$class, $1) = @_;"
 		],
-		"description": "Class Method Parameters"
+		"description": "Class Method Arguments"
 	},
-	"Object Method Parameters": {
-		"prefix": "paramobject",
+	"Object Method Arguments": {
+		"prefix": "argsobject",
 		"body": [
 			"my (\\$self, $1) = @_;"
 		],
-		"description": "Object Method Parameters"
+		"description": "Object Method Arguments"
 	}
 }

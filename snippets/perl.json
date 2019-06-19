@@ -8,5 +8,19 @@
 		"prefix": "for",
 		"body": "for my \\$$1 (@\\$$2) {\n\t$0\n}\n",
 		"description": "A for statement"
+	},
+	"Class Method Parameters": {
+		"prefix": "paramclass",
+		"body": [
+			"my (\\$class, $1) = @_;"
+		],
+		"description": "Class Method Parameters"
+	},
+	"Object Method Parameters": {
+		"prefix": "paramobject",
+		"body": [
+			"my (\\$self, $1) = @_;"
+		],
+		"description": "Object Method Parameters"
 	}
 }

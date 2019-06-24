@@ -1,4 +1,20 @@
-{			
+{
+	"Slim Use Log": {
+		"scope": "perl",
+		"prefix": "slimloguse",
+		"body": [
+			"use Slim::Utils::Log;"
+		],
+		"description": "Slim Use Log"
+	},
+	"Slim Log Init": {
+		"scope": "perl",
+		"prefix": "slimloginit",
+		"body": [
+			"my \\$log = logger('plugin.$1');"
+		],
+		"description": "Slim Init Log"
+	},
 	"Slim Log Debug": {
 		"scope": "perl",
 		"prefix": "slimlogdebug",

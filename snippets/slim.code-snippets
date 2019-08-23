@@ -19,7 +19,7 @@
 		"scope": "perl",
 		"prefix": "slimlogdebug",
 		"body": [
-			"\\$log->debug(\"$1\");"
+			"main::DEBUGLOG && \\$log->is_debug && \\$log->debug(\"$1\");"
 		],
 		"description": "Slim Debug Log"
 	},
@@ -27,7 +27,7 @@
 		"scope": "perl",
 		"prefix": "slimloginfo",
 		"body": [
-			"\\$log->info(\"$1\");"
+			"main::INFOLOG && \\$log->is_info && \\$log->info(\"$1\");"
 		],
 		"description": "Slim Info Log"
 	},

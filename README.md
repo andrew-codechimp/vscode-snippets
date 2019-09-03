@@ -1,9 +1,12 @@
 # vscode-snippets
 Various snippets for VS Code
 
-Includes:  
-* Perl
-* Slim framework (Logitech Media Server)
+Looking for LMS Slim Snippets?  I've now published these as a proper VSCode Extension for easy installation & updates  
+https://marketplace.visualstudio.com/items?itemName=CodeChimp.lmsslim-snippets
+
+Source https://github.com/codechimp-org/vscode-lmsslim-snippets
+
+This repo will contain random snippets for all other projects.
 
 Either copy the files within the snippets folder to your VS Code global snippets location or setup a symlink.
 
